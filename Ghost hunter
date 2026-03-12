@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ghost Hunter License</title>
+    <style>
+        /* Brown background for the whole page */
+        body { font-family: sans-serif; background-color: brown; color: black; margin: 0; padding: 20px; }
+
+        /* Main container designed to look like an old file folder */
+        .container { 
+            width: 600px; margin: auto;background-color: wheat; padding: 25px; border: 5px solid saddlebrown; 
+        }
+
+        /* General spacing for sections */
+        header, section { text-align: center; margin-bottom: 20px; }
+        
+        /* Navigation bar with borders and centered links */
+        nav { 
+            text-align: center;border-top: 2px solid saddlebrown; border-bottom: 2px solid saddlebrown;padding: 10px; margin-bottom: 20px;
+        }
+        
+        nav a { color: saddlebrown; font-weight: bold; text-decoration: none; margin: 0 10px; }
+
+        /* Form styling for a clean look */
+        form { text-align: left; margin: auto; width: 90%; }
+        
+        label { font-weight: bold; color: saddlebrown; }
+
+        input, textarea { 
+            width: 100%; margin-bottom: 15px;  background-color: white; border: 1px solid saddlebrown;padding: 8px; box-sizing: border-box;
+        }
+        
+        /* Submit button: Blue, bold, and centered */
+        .submit-btn { 
+            color: blue; font-weight: bold;background-color: white; border: 2px solid blue; padding: 10px 25px; cursor: pointer; width: auto;
+        }
+
+        /* Footer styling on the right */
+        footer { 
+            text-align: right; margin-top: 20px; padding-top: 10px;  border-top: 1px solid saddlebrown; font-size: small;
+        }
+
+        /* List styling for License Info */
+        ul { list-style-type: circle; padding-left: 40px; text-align: left; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1 style="color: saddlebrown;">Ghost Hunter License</h1>
+        <p><strong>Official Paranormal Investigator Permit</strong></p>
+    </header>
+
+    <nav>
+        <a href="https://www.paralearning.org/courses/practical-ghost-hunting/">License Info</a> | 
+        <a href="mailto:example@gmail.com">Contact</a>
+    </nav>
+
+    <section>
+        <h3>About This Website</h3>
+        <p>This website explains the Ghost Hunter License. It is a fictional permit for people who investigate paranormal activity and supernatural events.</p>
+    </section>
+
+    <section>
+        <h3 style="color: saddlebrown;">License Information</h3>
+        <ul>
+            <li><strong>Investigator Name:</strong> Amir Adem</li>
+            <li><strong>License Number:</strong> 101-GHOST-99</li>
+            <li><strong>Investigation Area:</strong> Ethiopia</li>
+            <li><strong>Expiration Date:</strong> October 31, 2030</li>
+        </ul>
+    </section>
+
+    <hr style="border: 1px solid saddlebrown;">
+
+    <section>
+        <h3>Apply for a Ghost Hunter License</h3>
+        <form>
+            <label>Full Name:</label>
+            <input type="text" name="name">
+            
+            <label>Email Address:</label>
+            <input type="text" name="email">
+            
+            <label>Investigation Area (City):</label>
+            <input type="text" name="city">
+            
+            <label>Experience Level:</label>
+            <input type="text" name="experience">
+            
+            <label>Reason for Applying:</label>
+            <textarea rows="4"></textarea>
+            
+            <div style="text-align: center;">
+                <input type="submit" value="Submit Application" class="submit-btn">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Grade 11 Web Design Assignment</p>
+        <p>Created by Amir A.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
